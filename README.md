@@ -1,6 +1,15 @@
 Note: I forked this blockparser to adapt it and update it for Kryptofranc.
 You can compile it using the instruction below.
 
+<b>Build</b>
+```
+sudo apt-get install libssl-dev build-essential g++ libboost-all-dev libsparsehash-dev git-core perl
+git clone https//github.com/NicolasChoukroun/blockparser
+cd blockparser
+
+<b>make</b>
+```
+
 Run 
 ```
 ./parser all
@@ -13,31 +22,14 @@ will show the information about your kryptofranc blockchain with no need to modi
 blockparser
 ===========
 
-    Who wrote it ?
-    --------------
+ Author:
+ znort987@yahoo.com
+ https://github.com:znort987/blockparser
+ 
+License:  Code is in the public domain.
 
-        Author:
 
-            znort987@yahoo.com
 
-        Tip here if you find it useful:
-
-            1ZnortsoStC1zSTXbW6CUtkvqew8czMMG
-
-        I've also been cherry-picking changes I found useful from various github forks.
-        Credits for these:
-
-             git log | grep Author | grep -iv Znort
-
-    Canonical source code repo:
-    ---------------------------
-
-        git clone github.com:znort987/blockparser.git
-
-    License:
-    --------
-
-        Code is in the public domain.
 
     What is it ?
     ------------
