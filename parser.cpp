@@ -72,9 +72,14 @@ static double getMem() {
 }
 
 #if defined BITCOIN
-    static const size_t gHeaderSize = 80;
+   /* static const size_t gHeaderSize = 80;
     static auto kCoinDirName = ".bitcoin";
     static const uint32_t gExpectedMagic = 0xd9b4bef9;
+    */
+
+    static const size_t gHeaderSize = 80;
+    static auto kCoinDirName = ".kryptofranc";
+    static const uint32_t gExpectedMagic = 0x2046594b;
 #endif
 
 #if defined TESTNET3
