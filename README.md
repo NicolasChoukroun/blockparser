@@ -1,3 +1,5 @@
+Note: I forked this blockparser to adapt it and update it for Kryptofranc.
+
 blockparser
 ===========
 
