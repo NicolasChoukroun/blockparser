@@ -1,4 +1,14 @@
 Note: I forked this blockparser to adapt it and update it for Kryptofranc.
+You can compile it using the instruction below.
+
+Run 
+```
+./parser all
+or 
+./parser simple
+
+```
+will show the information about your kryptofranc blockchain with no need to modify the source.
 
 blockparser
 ===========
