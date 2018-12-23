@@ -6,11 +6,10 @@ You can compile it using the instruction below.
 sudo apt-get install libssl-dev build-essential g++ libboost-all-dev libsparsehash-dev git-core perl
 git clone https//github.com/NicolasChoukroun/blockparser
 cd blockparser
-
-<b>make</b>
+make
 ```
 
-Run 
+<b>Run </b>
 ```
 ./parser all
 or 
